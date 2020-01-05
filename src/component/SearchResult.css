@@ -1,0 +1,11 @@
+.card-link:hover{
+    text-decoration: none;
+}
+
+.search-results {
+    margin-top: 60px;
+}
+
+button {
+    margin-bottom:40px;
+}

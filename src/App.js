@@ -1,27 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SearchResults from './component/SearchResult'
+import { Router, navigate, Redirect } from '@reach/router'
+import ResDetails from './component/ResDetails'
+import Navigation from './component/Navigation'
+import CuisineInfo from './component/CuisineInfo'
+import SearchLocation from './component/SearchLocation';
+export default class App extends React.Component {
 
-function App() {
+  render(){
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        hellooo
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+        <div className="App">
+        <Navigation  />
+          <Router>
+            <Home path="/" />
+            <SearchResults path="/search/" />
+            <ResDetails path='/restaurant/:id' />
+            <CuisineInfo path='/cuisine/:id' />
+            <SearchLocation path="/searchlocation/"/>
+            
+          </Router>
+           
+        </div>
+  );
+  }
+}
