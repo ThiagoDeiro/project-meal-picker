@@ -1,7 +1,8 @@
 import React from 'react';
-import {Link, Redirect} from '@reach/router';
+import {Link} from '@reach/router';
 import './Navigation.css'
-import Home from '../Home'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome} from '@fortawesome/free-solid-svg-icons'
 
 class Navigation extends React.Component {
     
@@ -14,13 +15,15 @@ class Navigation extends React.Component {
               < >
                   
                   <li className="nav-item">
-                    <Link className="nav-link" to="/"><img className="logo" alt="logo" src="../logo.svg"></img></Link>
+                    <Link className="nav-link nav-text" to="/"> 
+                    <FontAwesomeIcon className="nav-text" icon={faHome} size="2x" />
+                    </Link>
                   </li>
                   <li className="nav-item">
-                  <Link className="nav-link menu-text" to="/search/">Search</Link>
+                  <Link className="nav-link menu-text nav-text" to="/search/"><span className="nav-text">Search</span></Link>
                   </li>
                   <li className="nav-item">
-                  <Link className="nav-link menu-text" to="/searchlocation/">Search by Location</Link>
+                  <Link className="nav-link menu-text nav-text" to="/searchlocation/"><span className="nav-text">Search by Location</span></Link>
                   </li> 
                     
                     </> 

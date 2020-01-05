@@ -9,3 +9,7 @@
 button {
     margin-bottom:40px;
 }
+
+.btn-color:hover{
+    font-weight: 700;
+}

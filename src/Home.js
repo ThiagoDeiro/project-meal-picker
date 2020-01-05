@@ -3,6 +3,7 @@ import Spinner from './component/Spinner'
 import Axios from 'axios'
 import _ from 'lodash'
 import {Redirect} from '@reach/router'
+import './Home.css'
 
 
 

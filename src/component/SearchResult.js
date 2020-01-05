@@ -3,6 +3,8 @@ import Card from './Card'
 import Axios from 'axios'
 import { Link } from '@reach/router'
 import './SearchResult.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch} from '@fortawesome/free-solid-svg-icons'
 export default class SearchResult extends React.Component{
     state = {
         cityData: [],
@@ -49,7 +51,7 @@ export default class SearchResult extends React.Component{
         <div className="container search-results">
             <div class="row">
             <input type='text' className="form-control form-control-lg col-6 offset-2" placeholder="What do you like to eat?" onChange={this.searchHandler}></input>
-            <button className="btn btn-primary btn-lg col-1" onClick={this.handleChange}>Search</button>
+            <button className="btn btn-primary btn-lg col-1 btn-color" onClick={this.handleChange}>Search</button>
             </div>
             <br/>
             <div>

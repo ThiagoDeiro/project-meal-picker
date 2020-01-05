@@ -9,7 +9,7 @@ nav {
 }
 
 .bg-dark {
-    background-color:#2F2F2F !important;
+    background-color:rgb(52, 50, 44) !important;
 }
 
 li .menu-text {
@@ -20,5 +20,8 @@ li .menu-text {
 
 .user-name{
     float: right !important;
-    color: grey;
+    color: rgb(16, 16, 16);
+}
+.nav-text{
+    color: white;
 }
