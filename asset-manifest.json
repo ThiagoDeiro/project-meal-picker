@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/project-meal-picker/static/css/main.d1b05096.chunk.css",
+    "main.js": "/project-meal-picker/static/js/main.077f023b.chunk.js",
+    "main.js.map": "/project-meal-picker/static/js/main.077f023b.chunk.js.map",
+    "runtime-main.js": "/project-meal-picker/static/js/runtime-main.c2800448.js",
+    "runtime-main.js.map": "/project-meal-picker/static/js/runtime-main.c2800448.js.map",
+    "static/js/2.f44a90af.chunk.js": "/project-meal-picker/static/js/2.f44a90af.chunk.js",
+    "static/js/2.f44a90af.chunk.js.map": "/project-meal-picker/static/js/2.f44a90af.chunk.js.map",
+    "index.html": "/project-meal-picker/index.html",
+    "precache-manifest.f959927c979456a9c958bab5c94caca3.js": "/project-meal-picker/precache-manifest.f959927c979456a9c958bab5c94caca3.js",
+    "service-worker.js": "/project-meal-picker/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/project-meal-picker/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.f44a90af.chunk.js.LICENSE": "/project-meal-picker/static/js/2.f44a90af.chunk.js.LICENSE",
+    "static/media/logo.svg": "/project-meal-picker/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2800448.js",
+    "static/js/2.f44a90af.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.077f023b.chunk.js"
+  ]
+}
