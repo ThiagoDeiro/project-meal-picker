@@ -17,7 +17,7 @@ export default class App extends React.Component {
         <div className="App">
         <Navigation  />
           <Router>
-            <Home path="/" />
+            <Home path="/project-meal-picker" />
             <SearchResults path="/search/" />
             <ResDetails path='/restaurant/:id' />
             <CuisineInfo path='/cuisine/:id' />

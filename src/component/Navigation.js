@@ -15,7 +15,7 @@ class Navigation extends React.Component {
               < >
                   
                   <li className="nav-item">
-                    <Link className="nav-link nav-text" to="/"> 
+                    <Link className="nav-link nav-text" to="/project-meal-picker"> 
                     <FontAwesomeIcon className="nav-text" icon={faHome} size="2x" />
                     </Link>
                   </li>
